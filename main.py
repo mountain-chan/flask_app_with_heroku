@@ -19,4 +19,5 @@ def hello_world():
     return 'Hello, World!'
 
 
-app.run(host='0.0.0.0', port=5012)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5012)
